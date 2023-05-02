@@ -1,0 +1,143 @@
+* {
+    text-decoration: none;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'padraosite';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raskely';
+    src: url('fontes/rakesly/rakesly\ el.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+header {
+    padding: 10px;
+    background-image: linear-gradient(0deg, #095f09, #24bb45);
+    color: white;
+}
+
+header > h1, p{
+    text-align: center;
+}
+
+header > h1 {
+    margin: 15px auto 20px auto;
+    font-family: raskely;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);
+    font-size: 36px;
+}
+
+header > p {
+    margin: 15px auto 20px auto;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    margin: 30px auto 10px auto;
+}
+
+nav > a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0px 15px 0px 15px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: auto;
+    background-color: aquamarine;
+}
+
+main > section {
+    background-color: white;
+}
+
+section {
+    padding: 10px 20px 10px 20px;
+    margin: 0px 250px;
+}
+
+section > h1 {
+    text-align: justify;
+    font-family: padraosite ;
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(19, 150, 47);
+
+    margin: 5px 5px 10px 5px;
+}
+
+section > h2 {
+    text-align: justify;
+    font-family: padraosite ;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(19, 150, 47);
+    margin: 5px 5px 10px 5px;
+}
+
+article {
+    width: auto;    
+    height: 50px;
+    background-color: aquamarine;
+}
+
+section > h3 {
+    background-color: rgb(30, 131, 68);
+    color: white;
+    text-align: justify;
+    text-indent: 10px;
+
+}
+
+article > p {
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px 10px 0px 10px;
+}
+
+section > p {
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-indent: 25px;
+}
+
+section > picture {
+    margin: auto;
+}
+
+#extra {
+    border-radius: 0px 40px;
+}
+
+#video {
+    width: 848px;
+    height: 315px;
+    padding: 0px;
+    margin: auto;
+}
+
+.special {
+    box-shadow:inset 10px 7px 15px rgba(19, 150, 150, 0.356);
+}

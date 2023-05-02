@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+/* 
+Medidas Absolutas
+cm, mm, in, pt, px, pc 
+in = polegada 
+ */
+
+ /*
+  Medidas Relativas
+ em, ex, rem, vw, wh, %
+  */
+    font-size: 1 em;
+/* 16px geralmente é igual a 1em */
+}

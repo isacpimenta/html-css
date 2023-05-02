@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(255, 115, 0);
+}
+
+header {
+    background-color: rgb(63, 63, 63);
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    margin: 10px auto 10px auto;
+}
+
+nav {
+    background-color: dimgray;
+    padding: 5px;
+    margin: 5px auto 5px auto;
+    box-shadow: -4px 3px 7px 1px rgba(0, 0, 0, 0.233);
+}
+
+aside > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+aside > a:hover {
+    text-decoration: underline;
+}
+
+nav > aside {
+    margin: auto;
+}
+
+main {
+    background-color: rgb(255, 177, 114);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border-radius: 0px 10px;
+    box-shadow: -4px 5px 18px rgba(0, 0, 0, 0.459);
+}
+
+
+article > h2 {
+    text-align: center;
+}
+
+article > aside {
+    background-color: rgb(202, 93, 4);
+    text-align: center;
+    color: white;
+    
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+}
+
+footer > p {
+    margin: 0%;
+}
+
+#bola {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    margin: 10px auto 10px auto;
+    border-radius: 50%;
+}
