@@ -1,12 +1,18 @@
 body {
-    height: 97vh;
-    background-color: black;
-    background-image: url(../imgs/wallpaper002.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
+    background:
+        black url(../imgs/wallpaper002.jpg) center top no-repeat
+        fixed
+    ;
     background-size: cover;
 
-    background-attachment: fixed;
+    /* Shorthand Background
+    color
+    image
+    position
+    reapeat
+    [ size ] 
+    attachment
+    */
 }
 
 main {
