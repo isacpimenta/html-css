@@ -3,14 +3,21 @@
 }
 
 #conteiner {
-    position: relative;
-    background-color: black;
-    height: 500px;
+    background-image: url('../imgs/espaco.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    position: relative; /*Padrão */
+    height: 96vh;
+    background-color: purple;
+    padding: 10px;
 }
 
 #content {
-    position: absolute;
-    background-color: yellow;
-    height: 200px;
-    height: 300px;
+    position: absolute; /*modificado*/
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%,-50%);
 }
