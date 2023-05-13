@@ -1,0 +1,16 @@
+* {
+    margin: 0%;
+}
+
+#conteiner {
+    position: relative;
+    background-color: black;
+    height: 500px;
+}
+
+#content {
+    position: absolute;
+    background-color: yellow;
+    height: 200px;
+    height: 300px;
+}
