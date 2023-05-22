@@ -24,6 +24,7 @@
         }
 
         table {
+            position: relative;
             min-width: 600px;
             border-collapse: collapse;
             margin: 30px auto;
@@ -42,11 +43,23 @@
         }
 
         thead, tfoot{
-            background-color: grey;
+            background-color: #383838;
             color: white;
         }
 
-        tbody tr:nth-child(2n) {
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+            border-collapse: collapse;
+        }
+
+        tbody tr:nth-child(2n - 1) { /* OU: odd (IMPAR) */
+            background-color: rgb(255,255,255);
+        }
+        
+
+        tbody tr:nth-child(2n) { /* OU: even (PAR) */
             background-color: rgb(185, 188, 190);
         }
         .num {
