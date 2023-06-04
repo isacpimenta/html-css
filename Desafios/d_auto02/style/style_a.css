@@ -28,7 +28,7 @@ main h2 {
 main h3 {
     font-family: var(--font2);
     font-size: 2em;
-    text-indent: 40px;
+    text-align: center;
 }
 
 main p {

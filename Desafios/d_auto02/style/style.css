@@ -81,3 +81,8 @@ main li {
 
     transform: translate(-50%,-50%);
 }
+
+.destaque {
+    color: rgb(3, 82, 33);
+    font-weight: bold;
+}
