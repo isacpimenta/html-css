@@ -24,8 +24,8 @@ main li {
     background-size: 100% 100%;
 
     position: absolute; /*modificado*/
-    height: 400px;
-    width: 550px;
+    height: 60vh;
+    width: 40vw;
     background-color: white;
     
     left: 50%;
@@ -85,4 +85,59 @@ main li {
 .destaque {
     color: rgb(3, 82, 33);
     font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    header > h1 {
+        font-size: 8vw;
+    }
+    
+    header > p {
+        font-size: 4vw;
+    }
+
+    nav {
+        font-size: 70%;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main h2 {
+        font-size: 16pt;
+    }
+
+    #conteudo {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    #conteudo2 {
+        width: 80vw;
+        height: 50vh;
+    }
+
+    #conteudo3 {
+        width: 70vw;
+        height: 50vh;
+        margin: auto;
+    }
+
+    #c3 {
+        width: 50vw;
+        height: 40vh;
+        margin: auto;
+    }
+
+    #conteudo4 {
+        width: 70vw;
+        height: 50vh;
+        margin: auto;
+    }
+
+    footer {
+        font-size: 90%;
+    }
 }
